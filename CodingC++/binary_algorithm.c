@@ -10,12 +10,12 @@ int main()
      int array[no];
     while(index<no){
     scanf("%d",&array[index]);
-    index++; // Increment index after each input
+    index++; 
     }
     printf("Enter the KEY you have to find:");
     scanf("%d",&x);
     
-    int low = 0, high = no - 1; // Corrected high value
+    int low = 0, high = no - 1; 
     int mid;
 
     while(low <= high)
